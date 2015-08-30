@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="4">
+        <file>
+            <url>src/chinesecheckersjavafx/ChineseCheckersJavaFX.java</url>
+            <bookmark id="1">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+            <bookmark id="4">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/chinesecheckersjavafx/FileChooserGame.java</url>
+            <bookmark id="2">
+                <name/>
+                <line>17</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Lior/Desktop/Chinese111/src/exceptions/EmptyNameException.java</file>
+            <file>file:/C:/Users/Lior/Desktop/Chinese111/src/scenes/Game/CheckersGameController.java</file>
+            <file>file:/C:/Users/Lior/Desktop/Chinese111/src/chinesecheckersjavafx/GameScene.java</file>
+            <file>file:/C:/Users/Lior/Desktop/Chinese111/src/logic/CheckersBoard.java</file>
+            <file>file:/C:/Users/Lior/Desktop/Chinese111/src/logic/GameEngine.java</file>
+            <file>file:/C:/Users/Lior/Desktop/Chinese111/src/chinesecheckersjavafx/XMLFilesHandlingFX.java</file>
+            <file>file:/C:/Users/Lior/Desktop/Chinese111/src/exceptions/DuplicateNameException.java</file>
+            <file>file:/C:/Users/Lior/Desktop/Chinese111/src/chinesecheckersjavafx/ChineseCheckersJavaFX.java</file>
+            <file>file:/C:/Users/Lior/Desktop/Chinese111/src/game_manager/GameManager.java</file>
+            <file>file:/C:/Users/Lior/Desktop/Chinese111/src/scenes/InitGame/PlayersMenuController.java</file>
+            <file>file:/C:/Users/Lior/Desktop/Chinese111/src/scenes/NewGame/NewGameController.java</file>
+            <file>file:/C:/Users/Lior/Desktop/Chinese111/src/chinesecheckersjavafx/GameController.java</file>
+            <file>file:/C:/Users/Lior/Desktop/Chinese111/src/exceptions/PlayersOverloadException.java</file>
+            <file>file:/C:/Users/Lior/Desktop/Chinese111/src/FXMLUtils/game.fxml</file>
+            <file>file:/C:/Users/Lior/Desktop/Chinese111/src/logic/XMLHandling.java</file>
+            <file>file:/C:/Users/Lior/Desktop/Chinese111/src/FXMLUtils/FXMLGameLoader.java</file>
+        </group>
+    </open-files>
+</project-private>

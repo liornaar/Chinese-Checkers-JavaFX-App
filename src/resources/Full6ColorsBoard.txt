@@ -1,0 +1,17 @@
+            G            
+           G G           
+          G G G          
+         G G G G         
+R R R R E E E E E W W W W
+ R R R E E E E E E W W W 
+  R R E E E E E E E W W  
+   R E E E E E E E E W   
+    E E E E E E E E E    
+   B E E E E E E E E N   
+  B B E E E E E E E N N  
+ B B B E E E E E E N N N 
+B B B B E E E E E N N N N
+         Y Y Y Y         
+          Y Y Y          
+           Y Y           
+            Y            

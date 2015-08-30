@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="newGame" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="&#10;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="scenes.NewGame.NewGameController">
+  <children>
+    <ImageView id="checkersImage" fitHeight="417.74884033203125" fitWidth="778.4139971294798" pickOnBounds="true" preserveRatio="true" style="-fx-background-radius: 10 10 10 10;&#10;" AnchorPane.bottomAnchor="-8.88" AnchorPane.leftAnchor="-67.0" AnchorPane.rightAnchor="-111.41" AnchorPane.topAnchor="-8.87">
+      <image>
+        <Image url="@backgroundCheckers.jpg" />
+      </image>
+    </ImageView>
+    <Button fx:id="newGameButton" mnemonicParsing="false" onAction="#newGame" prefHeight="25.0" prefWidth="100.0" text="New Game" textFill="#0b3ae4" AnchorPane.bottomAnchor="111.0" AnchorPane.leftAnchor="286.0" AnchorPane.rightAnchor="214.0" AnchorPane.topAnchor="264.0">
+      <font>
+        <Font name="Aharoni Bold" size="12.0" fx:id="x1" />
+      </font>
+    </Button>
+    <Button fx:id="loadGameButton" font="$x1" mnemonicParsing="false" onAction="#loadGame" prefHeight="25.0" prefWidth="102.0" text="Load Game" textFill="#0933ed" AnchorPane.bottomAnchor="75.0" AnchorPane.leftAnchor="284.0" AnchorPane.rightAnchor="214.0" AnchorPane.topAnchor="300.0" />
+  </children>
+  <stylesheets>
+    <URL value="@newGameStyle.css" />
+  </stylesheets>
+</AnchorPane>

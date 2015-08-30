@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<BorderPane minHeight="576.002197265625" prefHeight="576.002197265625" prefWidth="1074.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scenes.Game.CheckersGameController">
+    <center>
+        <Pane id="imagePane" prefHeight="241.0" prefWidth="711.0" stylesheets="@newGameStyle.css">
+            <children>
+                <ImageView fx:id="boardImage" fitHeight="576.3799711407355" fitWidth="1074.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@gameBackground.jpg" />
+                    </image>
+                </ImageView>
+                <Button id="menuButton" fx:id="finishTurnButton" layoutX="96.0" layoutY="329.0" mnemonicParsing="false" onAction="#finishTurn" prefHeight="38.484375" prefWidth="127.0" text="FINISH TURN" />
+                <Button id="menuButton" fx:id="saveGameButton" layoutX="96.0" layoutY="383.0" mnemonicParsing="false" onAction="#saveGame" prefHeight="38.484375" prefWidth="127.0" text="SAVE GAME" />
+                <Button id="menuButton" fx:id="retireButton" layoutX="96.0" layoutY="436.0" mnemonicParsing="false" onAction="#retire" prefHeight="38.484375" prefWidth="127.0" text="RETIRE " />
+                <Label fx:id="errorLabel" layoutX="27.0" layoutY="543.0" prefHeight="17.0" prefWidth="987.0" textFill="000000" >
+                    <font>
+                        <Font name="System Bold" size="22.0" />
+                    </font>
+                </Label>
+                <GridPane fx:id="checkersBoard" layoutX="230.0" layoutY="15.0" styleClass="gridStyle.css" stylesheets="@gridStyle.css">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                </GridPane>
+            <Button id="menuButton" fx:id="restartGameButton" layoutX="96.0" layoutY="329.0" mnemonicParsing="false" onAction="#restartGame" prefHeight="38.484375" prefWidth="142.0" text="RESTART GAME" visible="false" />
+            <Button id="menuButton" fx:id="startNewGameButton" layoutX="96.0" layoutY="383.0" mnemonicParsing="false" onAction="#startNewGame" prefHeight="38.484375" prefWidth="142.0" text="START NEW GAME" visible="false" />
+            <Label fx:id="msgLabel" layoutX="36.0" layoutY="300.0" prefHeight="17.0" prefWidth="360.0" textFill="#1e251e">
+               <effect>
+                  <Glow />
+               </effect>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <TitledPane animated="false" collapsible="false" layoutX="36.0" layoutY="80.0" prefHeight="206.0" prefWidth="142.0" text="Player">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="173.0" prefWidth="140.0">
+                     <children>
+                        <VBox fx:id="playersListView" layoutX="4.0" layoutY="3.0" prefHeight="173.0" prefWidth="132.0" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </TitledPane>
+            <TitledPane animated="false" collapsible="false" layoutX="178.0" layoutY="80.0" prefHeight="206.0" prefWidth="142.0" text="Colors">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="100.0">
+                     <children>
+                        <VBox fx:id="colorsListView" layoutX="4.0" layoutY="3.0" prefHeight="173.0" prefWidth="132.0" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </TitledPane>
+            </children>
+        </Pane>
+    </center>
+</BorderPane>

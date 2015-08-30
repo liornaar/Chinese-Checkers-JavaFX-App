@@ -1,0 +1,13 @@
+.label {
+    -fx-background-color: #BFBFBF;
+    -fx-background-radius: 3px;
+    -fx-color: #FFFFFF;
+    -fx-font-size: 9.75px;
+    -fx-font-weight: bold;
+    -fx-padding-bottom: 2px;
+    -fx-padding-left: 4px;
+    -fx-padding-right: 4px;
+    -fx-padding-top: 2px;
+    -fx-text-transform: uppercase;
+    -fx-white-space: nowrap;
+}

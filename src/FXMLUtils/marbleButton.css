@@ -1,0 +1,42 @@
+.button{
+    -fx-background-radius: 93em; 
+    -fx-min-width: 22px; 
+    -fx-min-height: 26px; 
+    -fx-max-width: 22px; 
+    -fx-max-height: 26px;
+    -fx-border-radius: 93em; 
+    -fx-border-color:black;
+
+}
+
+.button:hover {
+    -fx-opacity: 0.6;
+}
+
+
+#marbleButtonBlack{
+    -fx-background-color:black;
+}
+#marbleButtonBlue{
+    -fx-background-color:blue;
+}
+#marbleButtonWhite{
+    -fx-background-color:white;
+}
+#marbleButtonRed{
+    -fx-background-color:red;
+}
+#marbleButtonYellow{
+    -fx-background-color:yellow;
+}
+#marbleButtonGreen{
+    -fx-background-color:green;
+}
+#marbleButtonEmpty{
+
+}
+
+#marbleButtonLegalMove{
+    -fx-background-color : bisque;
+}
+

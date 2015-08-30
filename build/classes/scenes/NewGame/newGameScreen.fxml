@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<BorderPane minHeight="576.002197265625" prefHeight="576.002197265625" prefWidth="1074.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scenes.NewGame.NewGameController">
+  <center>
+    <Pane id="imagePane" prefHeight="241.0" prefWidth="711.0">
+      <children>
+        <ImageView fitHeight="576.3799711407355" fitWidth="1074.0" layoutX="0.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@backgroundCheckers.jpg" />
+          </image>
+        </ImageView>
+        <Button id="menuButton" fx:id="newGameButton" layoutX="496.0" layoutY="425.0" mnemonicParsing="false" onAction="#newGame" prefHeight="38.484375" prefWidth="127.0" text="PLAY" />
+        <Button id="menuButton" fx:id="loadGameButton" layoutX="496.0" layoutY="483.0" mnemonicParsing="false" onAction="#loadGame" prefHeight="38.484375" prefWidth="127.0" text="LOAD GAME" />
+      </children>
+      <stylesheets>
+        <URL value="@newGameStyle.css" />
+      </stylesheets>
+    </Pane>
+  </center>
+</BorderPane>

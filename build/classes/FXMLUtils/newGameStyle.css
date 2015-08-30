@@ -1,0 +1,49 @@
+#imagePane {
+	
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 900 506;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+
+}
+
+
+#menuButton {
+  -fx-background-color: black;
+  -fx-border-color: white;
+  -fx-border-width: 3px;
+  -fx-text-fill: white;
+}
+
+
+#menuButton:hover{
+
+    -fx-background-color: rgb(236, 150, 21);
+    -fx-text-fill: black;
+    
+}
+
+
+#menuButton:pressed{
+    
+    -fx-border-width: 1px;
+    -fx-border-color: black;
+    -fx-text-fill: white;
+    -fx-background-color: rgb(51,176,59);
+    
+    
+ 
+}
+
+#menuButton:disabled{
+    
+    -fx-border-width: 1px;
+    -fx-border-color: grey;
+    -fx-text-fill: white;
+    -fx-background-color: rgb(84,84,84);
+    -fx-opacity: 0.7;
+    
+ 
+}
+
+

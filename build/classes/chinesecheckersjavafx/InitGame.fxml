@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane minHeight="576.002197265625" prefHeight="576.002197265625" prefWidth="1074.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scenes.InitGame.PlayersMenuController">
+  <center>
+    <Pane id="imagePane" prefHeight="241.0" prefWidth="711.0" stylesheets="@newGameStyle.css">
+      <children>
+        <ImageView fx:id="playersImage" fitHeight="576.3799711407355" fitWidth="1074.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@InitBackground.jpg" />
+          </image>
+        </ImageView>
+        <Button id="menuButton" fx:id="setNameButton" layoutX="581.0" layoutY="347.0" mnemonicParsing="false" onAction="#setName" prefHeight="38.0" prefWidth="86.0" stylesheets="@newGameStyle.css" text="SET NAME">
+               <font>
+                  <Font name="Engravers MT" size="10.0" />
+               </font></Button>
+        <TextField fx:id="nameText" layoutX="360.0" layoutY="353.0" opacity="0.8" prefHeight="25.0" prefWidth="204.0" promptText="Player1" />
+        <ComboBox fx:id="totalPlayersCombo" layoutX="308.0" layoutY="132.0" opacity="0.9" prefHeight="25.0" prefWidth="44.0" promptText="Total Players" visibleRowCount="6" />
+        <ComboBox fx:id="colorsForEachCombo" layoutX="421.0" layoutY="206.0" opacity="0.9" prefHeight="25.0" prefWidth="44.0" promptText="Colors For Each" />
+        <ComboBox fx:id="humanPlayersCombo" layoutX="297.0" layoutY="277.0" opacity="0.9" prefHeight="25.0" prefWidth="44.0" promptText="Human Players" />
+        <Button id="menuButton" fx:id="startGameButton" layoutX="464.0" layoutY="472.0" mnemonicParsing="false" onAction="#startGame" prefHeight="49.0" prefWidth="154.0" text="START GAME">
+          <font>
+            <Font name="Engravers MT" size="14.0" />
+          </font>
+          <stylesheets>
+            <URL value="@newGameStyle.css" />
+          </stylesheets>
+        </Button>
+        <Label fx:id="errorLabel" layoutX="22.0" layoutY="544.0" prefHeight="17.0" prefWidth="1016.0" textFill="#ff0505">
+          <font>
+            <Font size="20.0" />
+          </font>
+        </Label>
+        <TitledPane alignment="CENTER" animated="false" collapsible="false" disable="false" layoutX="775.0" layoutY="187.0" prefHeight="249.0" prefWidth="249.0" style="&#10;" text="Players List" textFill="BLACK" underline="false">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+              <children>
+                <VBox fx:id="playersListView" layoutX="-3.0" layoutY="-5.0" prefHeight="238.0" prefWidth="257.0" style="">
+                  <stylesheets>
+                    <URL value="@labelStyle.css" />
+                  </stylesheets>
+                </VBox>
+              </children>
+            </AnchorPane>
+          </content>
+        </TitledPane>
+      </children>
+    </Pane>
+  </center>
+</BorderPane>
